@@ -4,6 +4,39 @@ h1{
 .background-container{
     height: 100vh;
     width: 100%;
-    background: lightskyblue;
-    background-color: brown;
+    background-color: rgb(131, 209, 131);
 }
+.number-icon{
+    display: flex;
+    align-items: center;
+    flex-flow:column;
+    font-size: 200px;
+    color: antiquewhite;
+}
+.btn-box{
+    display: flex;
+    flex-flow: row-wrap;
+    justify-content:center;
+    gap: 250px;
+    font-size: 50px;
+}
+.plus{
+background-color:beige;
+border-radius:20px;
+color: white;
+}
+.minus{
+background-color:beige;
+border-radius:20px;
+color: white;
+}
+.reset{
+border-radius: 50px;
+background-color: red;
+}
+.fake-footer{
+    background-color: white;
+}
+
+
+
