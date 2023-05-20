@@ -1,38 +1,39 @@
 h1{
+    background-color: bisque;
     text-align: center;
 }
 .background-container{
     height: 100vh;
     width: 100%;
-    background-color: rgb(131, 209, 131);
+    background-image: url(https://cdn.pixabay.com/photo/2020/10/09/13/30/leaves-5640555_1280.jpg);
+    background-size: cover;
 }
-.number-icon{
-    display: flex;
-    align-items: center;
-    flex-flow:column;
-    font-size: 200px;
-    color: antiquewhite;
-}
-.btn-box{
+.counter-container{
     display: flex;
     flex-flow: row-wrap;
-    justify-content:center;
-    gap: 250px;
+    justify-content: center;
+    align-items: center;
+
+}
+.number{
+    font-size: 200px;
+    margin: 50px;
+    color: rgb(248, 207, 153);
+    
+}
+.button-box{
+    display: flex;
+    flex-flow: row-wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 30px;
     font-size: 50px;
 }
-.plus{
-background-color:beige;
-border-radius:20px;
-color: white;
-}
-.minus{
-background-color:beige;
-border-radius:20px;
-color: white;
-}
-.reset{
-border-radius: 50px;
-background-color: red;
+.button-xs{
+background-color:bisque;
+border-radius:50px;
+color: black;
 }
 .fake-footer{
     background-color: white;
